@@ -10,8 +10,7 @@ try:
     mydb = mysql.connector.connect(
         host=host,
         user=user,
-        password=password
-    )
+:    )
 
     cursor = mydb.cursor()
 
